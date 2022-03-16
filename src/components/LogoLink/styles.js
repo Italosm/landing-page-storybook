@@ -6,7 +6,7 @@ export const Container = styled.a`
     align-items: center;
     color: inherit;
     > img {
-      max-height: 2.5rem;
+      height: 3rem;
     }
   `}
 `;
