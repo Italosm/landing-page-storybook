@@ -10,11 +10,6 @@ import Home from './templates/Home';
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <BrowserRouter>
-        <Switch>
-          <Route to="*" component={Home} />
-        </Switch>
-      </BrowserRouter>
       <Home />
       <GlobalStyles />
     </ThemeProvider>

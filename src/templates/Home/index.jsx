@@ -1,55 +1,34 @@
 import { useEffect, useState } from 'react';
-
 import * as Styled from './styles';
 
+//MapFunctions
 import { mapData } from '../../api/map-data';
 
+//Templates
+import { PageNotFound } from '../PageNotFound';
+import { Loading } from '../Loading';
+import { Base } from '../Base';
+
+//Components
 import { Heading } from '../../components/Heading';
 import { GridTwoColumns } from '../../components/GridTwoColumns';
 import { GridContent } from '../../components/GridContent';
 import { GridText } from '../../components/GridText';
 import { GridImage } from '../../components/GridImage';
 
-import { mockBase } from '../Base/mock';
-import { Base } from '../Base';
-import { PageNotFound } from '../PageNotFound';
-import { Loading } from '../Loading';
-
-import config from '../../config';
-
 function Home() {
   const [data, setData] = useState([]);
-
   useEffect(() => {
     const load = async () => {
-      try {
-        const data = await fetch(
-          'http://localhost:1337/pages/?slug=landing-page',
-        );
-        const json = await data.json();
-        const pageData = mapData(json);
-        setData(pageData[0]);
-      } catch (e) {
-        setData(undefined);
-      }
+      const data = await fetch(
+        'http://localhost:1337/pages/?slug=landing-page',
+      );
+      const json = await data.json();
+      const pageData = mapData(json);
+      setData(pageData[0]);
     };
-
     load();
   }, []);
-
-  useEffect(() => {
-    if (data === undefined) {
-      document.title = 'Página não encontrada';
-    }
-
-    if (data && !data.slug) {
-      document.title = `Carregando... | ${config.siteName}`;
-    }
-
-    if (data && data.title) {
-      document.title = `${data.title} | ${config.siteName}`;
-    }
-  }, [data]);
 
   if (data === undefined) {
     return <PageNotFound />;
@@ -61,7 +40,6 @@ function Home() {
 
   const { menu, sections, footerHtml, slug } = data;
   const { links, text, link, srcImg } = menu;
-
   return (
     <Base
       links={links}
