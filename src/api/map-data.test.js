@@ -8,15 +8,15 @@ describe('map-data', () => {
     expect(pagesData.title).toBe('');
   });
 
-  it('should map data if there are data', () => {
+  it('should map data', () => {
     const pagesData = mapData([
       {
-        footer_text: '<p>Hey</p>',
+        footer_text: '<p>Hello</p>',
         slug: 'slug',
         title: 'title',
       },
     ])[0];
-    expect(pagesData.footerHtml).toBe('<p>Hey</p>');
+    expect(pagesData.footerHtml).toBe('<p>Hello</p>');
     expect(pagesData.slug).toBe('slug');
     expect(pagesData.title).toBe('title');
   });

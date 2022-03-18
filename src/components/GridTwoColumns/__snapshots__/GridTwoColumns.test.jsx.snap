@@ -21,6 +21,10 @@ exports[`<GridTwoColum /> should render two column grid 1`] = `
   margin-bottom: 4.0rem;
 }
 
+.c7 {
+  width: 100%;
+}
+
 .c0 {
   background: #FFFFFF;
   color: #0A1128;
@@ -39,6 +43,7 @@ exports[`<GridTwoColum /> should render two column grid 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 .c6 {
@@ -67,6 +72,7 @@ exports[`<GridTwoColum /> should render two column grid 1`] = `
 <div>
   <div
     class="c0"
+    id=""
   >
     <div
       class="c1"
@@ -96,7 +102,7 @@ exports[`<GridTwoColum /> should render two column grid 1`] = `
         >
           <img
             alt="GRID TWO COLUMNS"
-            class=""
+            class="c7"
             src="assets/images/javascript.svg"
           />
         </div>

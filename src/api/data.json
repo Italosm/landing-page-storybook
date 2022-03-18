@@ -1,575 +1,575 @@
 [
   {
-    "_id": "622d8799ac971c378aaa7afc",
-    "published_at": "2022-03-13T06:00:28.626Z",
-    "footer_text": "<p><a href=\"https://www.linkedin.com/in/italo-smelo/\">Feito com ❤ por Italo Melo</a></p>",
-    "slug": "landing-page",
+    "_id": "6231aba54fd8d852aedd7e7f",
     "title": "Landing Page",
-    "sections": [
-      {
-        "__component": "section.section-two-columns",
-        "_id": "622d8799ac971c378aaa7afd",
-        "title": "January brings us Firefox 85",
-        "description": "To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.\n\n",
-        "metadata": {
-          "background": true,
-          "_id": "622d879aac971c378aaa7b04",
-          "section_id": "home",
-          "name": "Home",
-          "__v": 0,
-          "id": "622d879aac971c378aaa7b04"
-        },
-        "__v": 1,
-        "image": {
-          "_id": "622d820dac971c378aaa7af5",
-          "name": "javascript.svg",
-          "alternativeText": "Desenho de pessoas segurando as logos do CSS, javascript e do HTML 5",
-          "caption": "Desenho de pessoas segurando as logos do CSS, javascript e do HTML 5",
-          "hash": "javascript_a8f4f008b2",
-          "ext": ".svg",
-          "mime": "image/svg+xml",
-          "size": 30.31,
-          "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647149579/javascript_a8f4f008b2.svg",
-          "provider_metadata": {
-            "public_id": "javascript_a8f4f008b2",
-            "resource_type": "image"
-          },
-          "provider": "cloudinary",
-          "width": 1030,
-          "height": 730,
-          "related": [],
-          "createdAt": "2022-03-13T05:33:01.289Z",
-          "updatedAt": "2022-03-13T05:59:05.161Z",
-          "__v": 0,
-          "id": "622d820dac971c378aaa7af5"
-        },
-        "id": "622d8799ac971c378aaa7afd"
-      },
-      {
-        "__component": "section.section-content",
-        "_id": "622d879aac971c378aaa7afe",
-        "Title": "news coverage and some surprises",
-        "content": "<p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p><p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p><p>We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.</p>",
-        "metadata": {
-          "background": false,
-          "_id": "622d879aac971c378aaa7b05",
-          "name": "intro",
-          "section_id": "intro",
-          "__v": 0,
-          "id": "622d879aac971c378aaa7b05"
-        },
-        "__v": 1,
-        "id": "622d879aac971c378aaa7afe"
-      },
-      {
-        "__component": "section.section-grid",
-        "_id": "622d879aac971c378aaa7aff",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-        "Title": "My Grid",
-        "text_grid": [
-          {
-            "_id": "622d879aac971c378aaa7b06",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
-            "Title": "Teste 1",
-            "__v": 0,
-            "id": "622d879aac971c378aaa7b06"
-          },
-          {
-            "_id": "622d879aac971c378aaa7b07",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
-            "Title": "Teste 2",
-            "__v": 0,
-            "id": "622d879aac971c378aaa7b07"
-          },
-          {
-            "_id": "622d879aac971c378aaa7b08",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
-            "Title": "Teste 3",
-            "__v": 0,
-            "id": "622d879aac971c378aaa7b08"
-          }
-        ],
-        "image_grid": [],
-        "metadata": {
-          "background": true,
-          "_id": "622d879aac971c378aaa7b24",
-          "name": "grid-one",
-          "section_id": "grid-one",
-          "__v": 0,
-          "id": "622d879aac971c378aaa7b24"
-        },
-        "__v": 2,
-        "id": "622d879aac971c378aaa7aff"
-      },
-      {
-        "__component": "section.section-grid",
-        "_id": "622d879aac971c378aaa7b00",
-        "description": "Debitis cum delectus molestias.",
-        "Title": "Gallery",
-        "text_grid": [],
-        "image_grid": [
-          {
-            "_id": "622d879aac971c378aaa7b0e",
-            "__v": 0,
-            "image": {
-              "_id": "622d8594ac971c378aaa7af6",
-              "name": "http://source.unsplash.com/random/360x360?r=2",
-              "alternativeText": "Uma moto estacionada",
-              "caption": "Uma moto estacionada",
-              "hash": "360x360_r_2_2a49e999f2",
-              "ext": "",
-              "mime": "image/jpeg",
-              "size": 14.84,
-              "width": 360,
-              "height": 360,
-              "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647150482/360x360_r_2_2a49e999f2.jpg",
-              "provider_metadata": {
-                "public_id": "360x360_r_2_2a49e999f2",
-                "resource_type": "image"
-              },
-              "formats": {
-                "thumbnail": {
-                  "name": "thumbnail_http://source.unsplash.com/random/360x360?r=2",
-                  "hash": "thumbnail_360x360_r_2_2a49e999f2",
-                  "ext": "",
-                  "mime": "image/jpeg",
-                  "width": 156,
-                  "height": 156,
-                  "size": 4.8,
-                  "path": null,
-                  "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647150483/thumbnail_360x360_r_2_2a49e999f2.jpg",
-                  "provider_metadata": {
-                    "public_id": "thumbnail_360x360_r_2_2a49e999f2",
-                    "resource_type": "image"
-                  }
-                }
-              },
-              "provider": "cloudinary",
-              "related": [],
-              "createdAt": "2022-03-13T05:48:04.030Z",
-              "updatedAt": "2022-03-13T05:59:05.161Z",
-              "__v": 0,
-              "id": "622d8594ac971c378aaa7af6"
-            },
-            "id": "622d879aac971c378aaa7b0e"
-          },
-          {
-            "_id": "622d879aac971c378aaa7b0f",
-            "__v": 0,
-            "image": {
-              "_id": "622d8594ac971c378aaa7afb",
-              "name": "http://source.unsplash.com/random/360x360?r=33",
-              "alternativeText": "Madeira rustica trabalhada",
-              "caption": "Madeira rustica trabalhada",
-              "hash": "360x360_r_33_449455c054",
-              "ext": "",
-              "mime": "image/jpeg",
-              "size": 21.86,
-              "width": 360,
-              "height": 360,
-              "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647150482/360x360_r_33_449455c054.jpg",
-              "provider_metadata": {
-                "public_id": "360x360_r_33_449455c054",
-                "resource_type": "image"
-              },
-              "formats": {
-                "thumbnail": {
-                  "name": "thumbnail_http://source.unsplash.com/random/360x360?r=33",
-                  "hash": "thumbnail_360x360_r_33_449455c054",
-                  "ext": "",
-                  "mime": "image/jpeg",
-                  "width": 156,
-                  "height": 156,
-                  "size": 4.7,
-                  "path": null,
-                  "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647150483/thumbnail_360x360_r_33_449455c054.jpg",
-                  "provider_metadata": {
-                    "public_id": "thumbnail_360x360_r_33_449455c054",
-                    "resource_type": "image"
-                  }
-                }
-              },
-              "provider": "cloudinary",
-              "related": [],
-              "createdAt": "2022-03-13T05:48:04.286Z",
-              "updatedAt": "2022-03-13T05:59:05.161Z",
-              "__v": 0,
-              "id": "622d8594ac971c378aaa7afb"
-            },
-            "id": "622d879aac971c378aaa7b0f"
-          },
-          {
-            "_id": "622d879aac971c378aaa7b10",
-            "__v": 0,
-            "image": {
-              "_id": "622d8594ac971c378aaa7afa",
-              "name": "http://source.unsplash.com/random/360x360?r=773",
-              "alternativeText": "Placa de trânsito com um R escrito",
-              "caption": "Placa de trânsito com um R escrito",
-              "hash": "360x360_r_773_bd94543ecd",
-              "ext": "",
-              "mime": "image/jpeg",
-              "size": 19.56,
-              "width": 360,
-              "height": 360,
-              "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647150482/360x360_r_773_bd94543ecd.jpg",
-              "provider_metadata": {
-                "public_id": "360x360_r_773_bd94543ecd",
-                "resource_type": "image"
-              },
-              "formats": {
-                "thumbnail": {
-                  "name": "thumbnail_http://source.unsplash.com/random/360x360?r=773",
-                  "hash": "thumbnail_360x360_r_773_bd94543ecd",
-                  "ext": "",
-                  "mime": "image/jpeg",
-                  "width": 156,
-                  "height": 156,
-                  "size": 6.02,
-                  "path": null,
-                  "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647150483/thumbnail_360x360_r_773_bd94543ecd.jpg",
-                  "provider_metadata": {
-                    "public_id": "thumbnail_360x360_r_773_bd94543ecd",
-                    "resource_type": "image"
-                  }
-                }
-              },
-              "provider": "cloudinary",
-              "related": [],
-              "createdAt": "2022-03-13T05:48:04.226Z",
-              "updatedAt": "2022-03-13T05:59:05.161Z",
-              "__v": 0,
-              "id": "622d8594ac971c378aaa7afa"
-            },
-            "id": "622d879aac971c378aaa7b10"
-          },
-          {
-            "_id": "622d879aac971c378aaa7b11",
-            "__v": 0,
-            "image": {
-              "_id": "622d8594ac971c378aaa7af9",
-              "name": "http://source.unsplash.com/random/360x360?r=2654",
-              "alternativeText": "Uma turbina eólica",
-              "caption": "Uma turbina eólica",
-              "hash": "360x360_r_2654_57db4d2297",
-              "ext": "",
-              "mime": "image/jpeg",
-              "size": 18.45,
-              "width": 360,
-              "height": 360,
-              "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647150482/360x360_r_2654_57db4d2297.jpg",
-              "provider_metadata": {
-                "public_id": "360x360_r_2654_57db4d2297",
-                "resource_type": "image"
-              },
-              "formats": {
-                "thumbnail": {
-                  "name": "thumbnail_http://source.unsplash.com/random/360x360?r=2654",
-                  "hash": "thumbnail_360x360_r_2654_57db4d2297",
-                  "ext": "",
-                  "mime": "image/jpeg",
-                  "width": 156,
-                  "height": 156,
-                  "size": 4.5,
-                  "path": null,
-                  "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647150483/thumbnail_360x360_r_2654_57db4d2297.jpg",
-                  "provider_metadata": {
-                    "public_id": "thumbnail_360x360_r_2654_57db4d2297",
-                    "resource_type": "image"
-                  }
-                }
-              },
-              "provider": "cloudinary",
-              "related": [],
-              "createdAt": "2022-03-13T05:48:04.215Z",
-              "updatedAt": "2022-03-13T05:59:05.161Z",
-              "__v": 0,
-              "id": "622d8594ac971c378aaa7af9"
-            },
-            "id": "622d879aac971c378aaa7b11"
-          },
-          {
-            "_id": "622d879aac971c378aaa7b12",
-            "__v": 0,
-            "image": {
-              "_id": "622d8594ac971c378aaa7af8",
-              "name": "http://source.unsplash.com/random/360x360?r=222",
-              "alternativeText": "Cidade com o céu nublado",
-              "caption": "Cidade com o céu nublado",
-              "hash": "360x360_r_222_5480239d3a",
-              "ext": "",
-              "mime": "image/jpeg",
-              "size": 22.97,
-              "width": 360,
-              "height": 360,
-              "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647150482/360x360_r_222_5480239d3a.jpg",
-              "provider_metadata": {
-                "public_id": "360x360_r_222_5480239d3a",
-                "resource_type": "image"
-              },
-              "formats": {
-                "thumbnail": {
-                  "name": "thumbnail_http://source.unsplash.com/random/360x360?r=222",
-                  "hash": "thumbnail_360x360_r_222_5480239d3a",
-                  "ext": "",
-                  "mime": "image/jpeg",
-                  "width": 156,
-                  "height": 156,
-                  "size": 5.26,
-                  "path": null,
-                  "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647150483/thumbnail_360x360_r_222_5480239d3a.jpg",
-                  "provider_metadata": {
-                    "public_id": "thumbnail_360x360_r_222_5480239d3a",
-                    "resource_type": "image"
-                  }
-                }
-              },
-              "provider": "cloudinary",
-              "related": [],
-              "createdAt": "2022-03-13T05:48:04.061Z",
-              "updatedAt": "2022-03-13T05:59:05.161Z",
-              "__v": 0,
-              "id": "622d8594ac971c378aaa7af8"
-            },
-            "id": "622d879aac971c378aaa7b12"
-          },
-          {
-            "_id": "622d879aac971c378aaa7b13",
-            "__v": 0,
-            "image": {
-              "_id": "622d8594ac971c378aaa7af7",
-              "name": "http://source.unsplash.com/random/360x360?r=2",
-              "alternativeText": "Carro da volkswagen rebaixado",
-              "caption": "Carro da volkswagen rebaixado",
-              "hash": "360x360_r_2_76d8c8a34e",
-              "ext": "",
-              "mime": "image/jpeg",
-              "size": 21.79,
-              "width": 360,
-              "height": 360,
-              "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647150482/360x360_r_2_76d8c8a34e.jpg",
-              "provider_metadata": {
-                "public_id": "360x360_r_2_76d8c8a34e",
-                "resource_type": "image"
-              },
-              "formats": {
-                "thumbnail": {
-                  "name": "thumbnail_http://source.unsplash.com/random/360x360?r=2",
-                  "hash": "thumbnail_360x360_r_2_76d8c8a34e",
-                  "ext": "",
-                  "mime": "image/jpeg",
-                  "width": 156,
-                  "height": 156,
-                  "size": 5.19,
-                  "path": null,
-                  "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647150483/thumbnail_360x360_r_2_76d8c8a34e.jpg",
-                  "provider_metadata": {
-                    "public_id": "thumbnail_360x360_r_2_76d8c8a34e",
-                    "resource_type": "image"
-                  }
-                }
-              },
-              "provider": "cloudinary",
-              "related": [],
-              "createdAt": "2022-03-13T05:48:04.038Z",
-              "updatedAt": "2022-03-13T05:59:05.161Z",
-              "__v": 0,
-              "id": "622d8594ac971c378aaa7af7"
-            },
-            "id": "622d879aac971c378aaa7b13"
-          }
-        ],
-        "metadata": {
-          "background": false,
-          "_id": "622d879aac971c378aaa7b30",
-          "name": "gallery",
-          "section_id": "gallery",
-          "__v": 0,
-          "id": "622d879aac971c378aaa7b30"
-        },
-        "__v": 2,
-        "id": "622d879aac971c378aaa7b00"
-      },
-      {
-        "__component": "section.section-grid",
-        "_id": "622d879aac971c378aaa7b01",
-        "description": "Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
-        "Title": "Other Grid",
-        "text_grid": [
-          {
-            "_id": "622d879aac971c378aaa7b09",
-            "Title": "Title One",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
-            "__v": 0,
-            "id": "622d879aac971c378aaa7b09"
-          },
-          {
-            "_id": "622d879aac971c378aaa7b0a",
-            "Title": "Title Two",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
-            "__v": 0,
-            "id": "622d879aac971c378aaa7b0a"
-          },
-          {
-            "_id": "622d879aac971c378aaa7b0b",
-            "Title": "Title 3",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
-            "__v": 0,
-            "id": "622d879aac971c378aaa7b0b"
-          }
-        ],
-        "image_grid": [],
-        "metadata": {
-          "background": true,
-          "_id": "622d879aac971c378aaa7b25",
-          "name": "grid-two",
-          "section_id": "grid-two",
-          "__v": 0,
-          "id": "622d879aac971c378aaa7b25"
-        },
-        "__v": 2,
-        "id": "622d879aac971c378aaa7b01"
-      },
-      {
-        "__component": "section.section-content",
-        "_id": "622d879aac971c378aaa7b02",
-        "Title": "Pricing",
-        "content": "<p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p><p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p><figure class=\"table\"><table><thead><tr><th>Title 1</th><th>Title 2</th><th>Title 3</th><th>Title 4</th><th>Title 5</th></tr></thead><tbody><tr><td>Content 1</td><td>Content 2</td><td>Content 3</td><td>Content 3</td><td>Content 3</td></tr><tr><td>Content 1</td><td>Content 2</td><td>Content 3</td><td>Content 3</td><td>Content 3</td></tr><tr><td>Content 1</td><td>Content 2</td><td>Content 3</td><td>Content 3</td><td>Content 3</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>Testando</td></tr></tbody></table></figure>",
-        "metadata": {
-          "background": false,
-          "_id": "622d879aac971c378aaa7b0c",
-          "name": "pricing",
-          "section_id": "pricing",
-          "__v": 0,
-          "id": "622d879aac971c378aaa7b0c"
-        },
-        "__v": 1,
-        "id": "622d879aac971c378aaa7b02"
-      },
-      {
-        "__component": "section.section-two-columns",
-        "_id": "622d879aac971c378aaa7b03",
-        "title": "January brings us Firefox 85",
-        "description": "To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.\n",
-        "metadata": {
-          "background": true,
-          "_id": "622d879aac971c378aaa7b0d",
-          "name": "contact",
-          "section_id": "contact",
-          "__v": 0,
-          "id": "622d879aac971c378aaa7b0d"
-        },
-        "__v": 1,
-        "image": {
-          "_id": "622d820dac971c378aaa7af5",
-          "name": "javascript.svg",
-          "alternativeText": "Desenho de pessoas segurando as logos do CSS, javascript e do HTML 5",
-          "caption": "Desenho de pessoas segurando as logos do CSS, javascript e do HTML 5",
-          "hash": "javascript_a8f4f008b2",
-          "ext": ".svg",
-          "mime": "image/svg+xml",
-          "size": 30.31,
-          "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647149579/javascript_a8f4f008b2.svg",
-          "provider_metadata": {
-            "public_id": "javascript_a8f4f008b2",
-            "resource_type": "image"
-          },
-          "provider": "cloudinary",
-          "width": 1030,
-          "height": 730,
-          "related": [],
-          "createdAt": "2022-03-13T05:33:01.289Z",
-          "updatedAt": "2022-03-13T05:59:05.161Z",
-          "__v": 0,
-          "id": "622d820dac971c378aaa7af5"
-        },
-        "id": "622d879aac971c378aaa7b03"
-      }
-    ],
+    "slug": "landing-page",
+    "published_at": "2022-03-16T21:41:25.647Z",
+    "createdAt": "2022-03-16T09:19:33.057Z",
+    "updatedAt": "2022-03-16T21:41:26.165Z",
+    "__v": 0,
     "menu": {
       "open_in_new_tab": false,
-      "_id": "622d879bac971c378aaa7b39",
+      "_id": "623252dc9a1ed70569e4d88c",
       "logo_text": "Landing Page",
       "logo_link": "#home",
       "menu": [
         {
           "open_in_new_tab": false,
-          "_id": "622d879bac971c378aaa7b3a",
+          "_id": "623252dc9a1ed70569e4d88d",
           "link_text": "intro",
           "url": "#intro",
           "__v": 0,
-          "id": "622d879bac971c378aaa7b3a"
+          "id": "623252dc9a1ed70569e4d88d"
         },
         {
           "open_in_new_tab": false,
-          "_id": "622d879bac971c378aaa7b3b",
+          "_id": "623252dc9a1ed70569e4d88e",
           "link_text": "grid-one",
           "url": "#grid-one",
           "__v": 0,
-          "id": "622d879bac971c378aaa7b3b"
+          "id": "623252dc9a1ed70569e4d88e"
         },
         {
           "open_in_new_tab": false,
-          "_id": "622d879bac971c378aaa7b3c",
+          "_id": "623252dc9a1ed70569e4d88f",
           "link_text": "gallery",
           "url": "#gallery",
           "__v": 0,
-          "id": "622d879bac971c378aaa7b3c"
+          "id": "623252dc9a1ed70569e4d88f"
         },
         {
           "open_in_new_tab": false,
-          "_id": "622d879bac971c378aaa7b3d",
+          "_id": "623252dc9a1ed70569e4d890",
           "link_text": "grid-two",
           "url": "#grid-two",
           "__v": 0,
-          "id": "622d879bac971c378aaa7b3d"
+          "id": "623252dc9a1ed70569e4d890"
         },
         {
           "open_in_new_tab": false,
-          "_id": "622d879bac971c378aaa7b3e",
+          "_id": "623252dc9a1ed70569e4d891",
           "link_text": "pricing",
           "url": "#pricing",
           "__v": 0,
-          "id": "622d879bac971c378aaa7b3e"
+          "id": "623252dc9a1ed70569e4d891"
         },
         {
           "open_in_new_tab": false,
-          "_id": "622d879bac971c378aaa7b3f",
+          "_id": "623252dc9a1ed70569e4d892",
           "link_text": "contact",
           "url": "#contact",
           "__v": 0,
-          "id": "622d879bac971c378aaa7b3f"
+          "id": "623252dc9a1ed70569e4d892"
         }
       ],
       "__v": 1,
       "logo": {
-        "_id": "622d7e6bb43fb42f4c8e8592",
-        "name": "landing-page-2.svg",
-        "alternativeText": "Landing Page Logo",
-        "caption": "Landing Page Logo",
-        "hash": "landing_page_2_1454cf88d6",
+        "_id": "62324abeb516ba0519f3c6c1",
+        "name": "logo.svg",
+        "alternativeText": "Landing page logo",
+        "caption": "",
+        "hash": "logo_b96c1f6a84",
         "ext": ".svg",
         "mime": "image/svg+xml",
         "size": 2.51,
-        "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647148649/landing_page_2_1454cf88d6.svg",
+        "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647463090/logo_b96c1f6a84.svg",
         "provider_metadata": {
-          "public_id": "landing_page_2_1454cf88d6",
+          "public_id": "logo_b96c1f6a84",
           "resource_type": "image"
         },
         "provider": "cloudinary",
         "width": 47,
         "height": 9,
         "related": [],
-        "createdAt": "2022-03-13T05:17:31.770Z",
-        "updatedAt": "2022-03-13T05:59:05.161Z",
+        "createdAt": "2022-03-16T20:38:22.594Z",
+        "updatedAt": "2022-03-16T21:20:21.127Z",
         "__v": 0,
-        "id": "622d7e6bb43fb42f4c8e8592"
+        "id": "62324abeb516ba0519f3c6c1"
       },
-      "id": "622d879bac971c378aaa7b39"
+      "id": "623252dc9a1ed70569e4d88c"
     },
-    "createdAt": "2022-03-13T05:56:41.937Z",
-    "updatedAt": "2022-03-13T06:00:29.172Z",
-    "__v": 2,
-    "id": "622d8799ac971c378aaa7afc"
+    "sections": [
+      {
+        "__component": "section.section-two-columns",
+        "_id": "623252db9a1ed70569e4d850",
+        "title": "January brings us Firefox 85",
+        "description": "To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.",
+        "metadata": {
+          "background": true,
+          "_id": "623252db9a1ed70569e4d85d",
+          "name": "Home",
+          "section_id": "home",
+          "__v": 0,
+          "id": "623252db9a1ed70569e4d85d"
+        },
+        "__v": 1,
+        "image": {
+          "_id": "62324f3e9a1ed70569e4d849",
+          "name": "javascript.svg",
+          "alternativeText": "Pessoas e logos do css53, do javascript e do html 5",
+          "caption": "",
+          "hash": "javascript_de36ae92da",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 30.31,
+          "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647464221/javascript_de36ae92da.svg",
+          "provider_metadata": {
+            "public_id": "javascript_de36ae92da",
+            "resource_type": "image"
+          },
+          "provider": "cloudinary",
+          "width": 1030,
+          "height": 730,
+          "related": [],
+          "createdAt": "2022-03-16T20:57:34.968Z",
+          "updatedAt": "2022-03-16T21:20:21.127Z",
+          "__v": 0,
+          "id": "62324f3e9a1ed70569e4d849"
+        },
+        "id": "623252db9a1ed70569e4d850"
+      },
+      {
+        "__component": "section.section-content",
+        "_id": "623252db9a1ed70569e4d851",
+        "title": "news coverage and some surprises",
+        "content": "<p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p><p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p><p>We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.</p>",
+        "metadata": {
+          "background": false,
+          "_id": "623252db9a1ed70569e4d861",
+          "name": "intro",
+          "section_id": "intro",
+          "__v": 0,
+          "id": "623252db9a1ed70569e4d861"
+        },
+        "__v": 1,
+        "id": "623252db9a1ed70569e4d851"
+      },
+      {
+        "__component": "section.section-grid",
+        "_id": "623252db9a1ed70569e4d852",
+        "title": "My Grid",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "text_grid": [
+          {
+            "_id": "623252db9a1ed70569e4d85e",
+            "title": "Title 1",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
+            "__v": 0,
+            "id": "623252db9a1ed70569e4d85e"
+          },
+          {
+            "_id": "623252db9a1ed70569e4d85f",
+            "title": "Title 2",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.\n\n",
+            "__v": 0,
+            "id": "623252db9a1ed70569e4d85f"
+          },
+          {
+            "_id": "623252db9a1ed70569e4d860",
+            "title": "Title 3",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
+            "__v": 0,
+            "id": "623252db9a1ed70569e4d860"
+          }
+        ],
+        "image_grid": [],
+        "metadata": {
+          "background": true,
+          "_id": "623252db9a1ed70569e4d877",
+          "name": "grid-one",
+          "section_id": "grid-one",
+          "__v": 0,
+          "id": "623252db9a1ed70569e4d877"
+        },
+        "__v": 2,
+        "id": "623252db9a1ed70569e4d852"
+      },
+      {
+        "__component": "section.section-grid",
+        "_id": "623252db9a1ed70569e4d853",
+        "title": "Gallery",
+        "description": "Debitis cum delectus molestias.",
+        "text_grid": [],
+        "image_grid": [
+          {
+            "_id": "623252db9a1ed70569e4d857",
+            "__v": 0,
+            "image": {
+              "_id": "623251c89a1ed70569e4d84a",
+              "name": "http://source.unsplash.com/random/360x360?r=1",
+              "alternativeText": "Foto de duas cêmeras Canon com neve  embaixo delas.",
+              "caption": "",
+              "hash": "360x360_r_1_cea3a6bbc6",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 21.06,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647464901/360x360_r_1_cea3a6bbc6.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_1_cea3a6bbc6",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_http://source.unsplash.com/random/360x360?r=1",
+                  "hash": "thumbnail_360x360_r_1_cea3a6bbc6",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 6.5,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647464902/thumbnail_360x360_r_1_cea3a6bbc6.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_1_cea3a6bbc6",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": [],
+              "createdAt": "2022-03-16T21:08:24.246Z",
+              "updatedAt": "2022-03-16T21:20:21.127Z",
+              "__v": 0,
+              "id": "623251c89a1ed70569e4d84a"
+            },
+            "id": "623252db9a1ed70569e4d857"
+          },
+          {
+            "_id": "623252db9a1ed70569e4d858",
+            "__v": 0,
+            "image": {
+              "_id": "623251c89a1ed70569e4d84f",
+              "name": "http://source.unsplash.com/random/360x360?r=1",
+              "alternativeText": "foto em time lapse de uma rodovia.",
+              "caption": "",
+              "hash": "360x360_r_1_2192c1fb1e",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 9.6,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647464901/360x360_r_1_2192c1fb1e.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_1_2192c1fb1e",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_http://source.unsplash.com/random/360x360?r=1",
+                  "hash": "thumbnail_360x360_r_1_2192c1fb1e",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 2.42,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647464902/thumbnail_360x360_r_1_2192c1fb1e.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_1_2192c1fb1e",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": [],
+              "createdAt": "2022-03-16T21:08:24.913Z",
+              "updatedAt": "2022-03-16T21:20:21.127Z",
+              "__v": 0,
+              "id": "623251c89a1ed70569e4d84f"
+            },
+            "id": "623252db9a1ed70569e4d858"
+          },
+          {
+            "_id": "623252db9a1ed70569e4d859",
+            "__v": 0,
+            "image": {
+              "_id": "623251c89a1ed70569e4d84e",
+              "name": "http://source.unsplash.com/random/360x360?r=1",
+              "alternativeText": "Foto de cantora com luzes atrás dela.",
+              "caption": "",
+              "hash": "360x360_r_1_98f2ce9ea3",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 13.01,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647464901/360x360_r_1_98f2ce9ea3.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_1_98f2ce9ea3",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_http://source.unsplash.com/random/360x360?r=1",
+                  "hash": "thumbnail_360x360_r_1_98f2ce9ea3",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 3.87,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647464902/thumbnail_360x360_r_1_98f2ce9ea3.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_1_98f2ce9ea3",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": [],
+              "createdAt": "2022-03-16T21:08:24.536Z",
+              "updatedAt": "2022-03-16T21:20:21.127Z",
+              "__v": 0,
+              "id": "623251c89a1ed70569e4d84e"
+            },
+            "id": "623252db9a1ed70569e4d859"
+          },
+          {
+            "_id": "623252db9a1ed70569e4d85a",
+            "__v": 0,
+            "image": {
+              "_id": "623251c89a1ed70569e4d84d",
+              "name": "http://source.unsplash.com/random/360x360?r=1",
+              "alternativeText": "foto de uma parede de tijolinhos.",
+              "caption": "",
+              "hash": "360x360_r_1_60926e47a1",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 36.2,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647464901/360x360_r_1_60926e47a1.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_1_60926e47a1",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_http://source.unsplash.com/random/360x360?r=1",
+                  "hash": "thumbnail_360x360_r_1_60926e47a1",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 7.77,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647464902/thumbnail_360x360_r_1_60926e47a1.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_1_60926e47a1",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": [],
+              "createdAt": "2022-03-16T21:08:24.377Z",
+              "updatedAt": "2022-03-16T21:20:21.127Z",
+              "__v": 0,
+              "id": "623251c89a1ed70569e4d84d"
+            },
+            "id": "623252db9a1ed70569e4d85a"
+          },
+          {
+            "_id": "623252db9a1ed70569e4d85b",
+            "__v": 0,
+            "image": {
+              "_id": "623251c89a1ed70569e4d84b",
+              "name": "http://source.unsplash.com/random/360x360?r=1",
+              "alternativeText": "Foto de cachoeira em meio a montanhas.",
+              "caption": "",
+              "hash": "360x360_r_1_72b7f36f68",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 18.89,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647464901/360x360_r_1_72b7f36f68.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_1_72b7f36f68",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_http://source.unsplash.com/random/360x360?r=1",
+                  "hash": "thumbnail_360x360_r_1_72b7f36f68",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 4.66,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647464902/thumbnail_360x360_r_1_72b7f36f68.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_1_72b7f36f68",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": [],
+              "createdAt": "2022-03-16T21:08:24.303Z",
+              "updatedAt": "2022-03-16T21:20:21.127Z",
+              "__v": 0,
+              "id": "623251c89a1ed70569e4d84b"
+            },
+            "id": "623252db9a1ed70569e4d85b"
+          },
+          {
+            "_id": "623252db9a1ed70569e4d85c",
+            "__v": 0,
+            "image": {
+              "_id": "623251c89a1ed70569e4d84c",
+              "name": "http://source.unsplash.com/random/360x360?r=1",
+              "alternativeText": "Manopla de moto",
+              "caption": "",
+              "hash": "360x360_r_1_9215bf8f8c",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 11.91,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647464901/360x360_r_1_9215bf8f8c.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_1_9215bf8f8c",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_http://source.unsplash.com/random/360x360?r=1",
+                  "hash": "thumbnail_360x360_r_1_9215bf8f8c",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 4.11,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647464902/thumbnail_360x360_r_1_9215bf8f8c.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_1_9215bf8f8c",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": [],
+              "createdAt": "2022-03-16T21:08:24.305Z",
+              "updatedAt": "2022-03-16T21:20:21.127Z",
+              "__v": 0,
+              "id": "623251c89a1ed70569e4d84c"
+            },
+            "id": "623252db9a1ed70569e4d85c"
+          }
+        ],
+        "metadata": {
+          "background": false,
+          "_id": "623252db9a1ed70569e4d882",
+          "name": "gallery",
+          "section_id": "gallery",
+          "__v": 0,
+          "id": "623252db9a1ed70569e4d882"
+        },
+        "__v": 2,
+        "id": "623252db9a1ed70569e4d853"
+      },
+      {
+        "__component": "section.section-grid",
+        "_id": "623252db9a1ed70569e4d854",
+        "title": "Other Grid",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias.",
+        "text_grid": [
+          {
+            "_id": "623252db9a1ed70569e4d862",
+            "title": "Title One",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
+            "__v": 0,
+            "id": "623252db9a1ed70569e4d862"
+          },
+          {
+            "_id": "623252db9a1ed70569e4d863",
+            "title": "Title Two",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
+            "__v": 0,
+            "id": "623252db9a1ed70569e4d863"
+          },
+          {
+            "_id": "623252db9a1ed70569e4d864",
+            "title": "Title Three",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
+            "__v": 0,
+            "id": "623252db9a1ed70569e4d864"
+          }
+        ],
+        "image_grid": [],
+        "metadata": {
+          "background": true,
+          "_id": "623252db9a1ed70569e4d878",
+          "name": "grid-two",
+          "section_id": "grid-two",
+          "__v": 0,
+          "id": "623252db9a1ed70569e4d878"
+        },
+        "__v": 2,
+        "id": "623252db9a1ed70569e4d854"
+      },
+      {
+        "__component": "section.section-content",
+        "_id": "623252db9a1ed70569e4d855",
+        "title": "Pricing",
+        "content": "<p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p><p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p><figure class=\"table\"><table><thead><tr><th>Title 1</th><th>Title 2</th><th>Title 3</th><th>Title 4</th><th>Title 5</th></tr></thead><tbody><tr><td>Content 1</td><td>Content 2</td><td>Content 3</td><td>Content 3</td><td>Content 3</td></tr><tr><td>Content 1</td><td>Content 2</td><td>Content 3</td><td>Content 3</td><td>Content 3</td></tr><tr><td>Content 1</td><td>Content 2</td><td>Content 3</td><td>Content 3</td><td>Content 3</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>Testando</td></tr></tbody></table></figure>",
+        "metadata": {
+          "background": false,
+          "_id": "623252db9a1ed70569e4d865",
+          "name": "pricing",
+          "section_id": "pricing",
+          "__v": 0,
+          "id": "623252db9a1ed70569e4d865"
+        },
+        "__v": 1,
+        "id": "623252db9a1ed70569e4d855"
+      },
+      {
+        "__component": "section.section-two-columns",
+        "_id": "623252db9a1ed70569e4d856",
+        "title": "January brings us Firefox 85",
+        "description": "To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.",
+        "metadata": {
+          "background": true,
+          "_id": "623252db9a1ed70569e4d866",
+          "name": "contact",
+          "section_id": "contact",
+          "__v": 0,
+          "id": "623252db9a1ed70569e4d866"
+        },
+        "__v": 1,
+        "image": {
+          "_id": "62324f3e9a1ed70569e4d849",
+          "name": "javascript.svg",
+          "alternativeText": "Pessoas e logos do css53, do javascript e do html 5",
+          "caption": "",
+          "hash": "javascript_de36ae92da",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 30.31,
+          "url": "https://res.cloudinary.com/drgpo0mge/image/upload/v1647464221/javascript_de36ae92da.svg",
+          "provider_metadata": {
+            "public_id": "javascript_de36ae92da",
+            "resource_type": "image"
+          },
+          "provider": "cloudinary",
+          "width": 1030,
+          "height": 730,
+          "related": [],
+          "createdAt": "2022-03-16T20:57:34.968Z",
+          "updatedAt": "2022-03-16T21:20:21.127Z",
+          "__v": 0,
+          "id": "62324f3e9a1ed70569e4d849"
+        },
+        "id": "623252db9a1ed70569e4d856"
+      }
+    ],
+    "footer_text": "<p><a href=\"https://www.linkedin.com/in/italo-smelo/\">Feito com ❤ por Italo Melo</a></p>",
+    "id": "6231aba54fd8d852aedd7e7f"
   }
 ]

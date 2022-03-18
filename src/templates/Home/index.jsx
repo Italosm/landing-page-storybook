@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
 
 import * as Styled from './styles';
 
@@ -20,15 +19,13 @@ import config from '../../config';
 
 function Home() {
   const [data, setData] = useState([]);
-  const location = useLocation();
 
   useEffect(() => {
-    const pathname = location.pathname.replace(/[^a-z0-9-_]/gi, '');
-    const slug = pathname ? pathname : config.defaultSlug;
-
     const load = async () => {
       try {
-        const data = await fetch(config.url + slug);
+        const data = await fetch(
+          'http://localhost:1337/pages/?slug=landing-page',
+        );
         const json = await data.json();
         const pageData = mapData(json);
         setData(pageData[0]);
@@ -38,7 +35,7 @@ function Home() {
     };
 
     load();
-  }, [location]);
+  }, []);
 
   useEffect(() => {
     if (data === undefined) {
