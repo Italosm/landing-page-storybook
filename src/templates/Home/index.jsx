@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import * as Styled from './styles';
+import config from '../../config';
 
 //MapFunctions
 import { mapData } from '../../api/map-data';
@@ -19,16 +20,35 @@ import { GridImage } from '../../components/GridImage';
 function Home() {
   const [data, setData] = useState([]);
   useEffect(() => {
+    const slug = config.defaultSlug;
+
     const load = async () => {
-      const data = await fetch(
-        'http://localhost:1337/pages/?slug=landing-page',
-      );
-      const json = await data.json();
-      const pageData = mapData(json);
-      setData(pageData[0]);
+      try {
+        const data = await fetch(config.url + slug);
+        const json = await data.json();
+        const pageData = mapData(json);
+        setData(pageData[0]);
+      } catch (e) {
+        setData(undefined);
+      }
     };
+
     load();
   }, []);
+
+  useEffect(() => {
+    if (data === undefined) {
+      document.title = 'Página não encontrada';
+    }
+
+    if (data && !data.slug) {
+      document.title = `Carregando... | ${config.siteName}`;
+    }
+
+    if (data && data.title) {
+      document.title = `${data.title} | ${config.siteName}`;
+    }
+  }, [data]);
 
   if (data === undefined) {
     return <PageNotFound />;

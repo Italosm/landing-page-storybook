@@ -1,5 +1,5 @@
 export default {
-  url: 'http://localhost:1337/pages/?slug=',
+  url: 'https://strapi-landing-pages-italosm.herokuapp.com/pages/?slug=',
   siteName: 'Italo Melo',
   defaultSlug: 'landing-page',
 };
